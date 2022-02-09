@@ -1,6 +1,14 @@
 <h1>Hello! Welcome to my website!</h1>
 <h2>Apparently I need a website as a CS major, so... this exists now.</h2>
 <p>Fun Fact: I actually hate web development!!</p>
+<script>
+    function playSqueak(){
+        console.log('squeak')
+        var audio = document.getElementById("audio");
+        audio.play();
+    }
+</script>
+<audio id="audio" src="/static/sound/squeak.mp3"></audio>
 <img src="https://utcshelphours.com/duck.png" alt="Random Duck From Help Hours Queue?" width="100" height="100" onclick="playSqueak()">
 <p>Help Hours Queue duck yes</p>
 
