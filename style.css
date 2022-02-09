@@ -1,9 +1,12 @@
-div {
-  text-align: justify;
+h1 {
+  font-size: 70px;
+  color:rgb(179, 60, 129);
 }
 
-div:after {
-  content: "";
-  display: inline-block;
-  width: 100%;
+h2 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 30px;
 }
